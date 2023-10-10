@@ -1,0 +1,155 @@
+  html, body { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden;  }
+  body { text-align: center; padding-top: 150px;}
+  h1 { font: 29px "Open Sans",Helvetica,sans-serif; text-align: center; padding-top: 10px; margin-top: 5px; font-weight: 700;}
+  body { font: 16px "Open Sans",Helvetica,sans-serif; color: #1173cb; background: linear-gradient(
+    rgba(0, 0, 0, .7),
+    rgba(0, 0, 0, .7)), url(./pix/Senate-House_exterior-44.jpeg); background-size: cover;}
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #fff; text-decoration: none; }
+
+.col-md-8 {
+    flex: 0 0 85.6666666667%;
+    max-width: 85.6666666667%;
+}
+
+h1.login-heading{   
+    background-color: #1173cbc7;
+    background-image: url(./pix/logo.png);
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+    border: 0;
+}
+
+.login-panel {
+    background-color: #ffffffc7;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+.login-option h2 {
+    font-size: 1.171875rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.login-option .description {
+    min-height: 8rem;
+	margin-right: 5px;
+}
+
+.login-option.real {
+    padding-top: 10px;
+	padding-right: 25px;
+}
+
+.login-option.guest {
+    padding-left: 25px;
+	padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.login-option.real .btn{
+    color: #fff;
+    background-color: #009fee;
+    font-weight: 700;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.login-option.guest .btn{
+    color: #fff;
+    background-color: #712177;
+    font-weight: 700;
+	padding: 10px;
+	border-radius: 10px;
+
+
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+
+
+#login-holder {
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+
+.login-option.real .btn:hover {
+    background-color: #0076b1;
+    transition: 0.5s;
+}
+
+.login-option.guest .btn:hover {
+    background-color: #3f1242;
+    transition: 0.5s;
+}
+
+
+.d-none {
+    display: none!important;
+}
+
+@media(min-width: 1200px){
+.d-xl-inline {
+    display: inline!important;
+}
+}
+
+.login-container {
+	background-color: transparent;
+	box-shadow: none;
+	padding-top: 0rem;
+	padding-bottom: 3rem;
+}
+
+@media (min-width: 768px){
+.login-container {
+    max-width: 100%;
+}
+}
+
+.pagelayout-login #page {
+    background: transparent;
+    background-image: none;
+}
