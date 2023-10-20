@@ -141,6 +141,9 @@ h1.login-heading{
 	box-shadow: none;
 	padding-top: 0rem;
 	padding-bottom: 3rem;
+	padding-left: 0rem;
+	padding-right:0rem;
+	min-width: 390px;
 }
 
 @media (min-width: 768px){
