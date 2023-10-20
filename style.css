@@ -121,7 +121,7 @@ h1.login-heading{
 }
 
 .login-option.guest .btn:hover {
-    background-color: #3f1242;
+    background-color: #67100a;
     transition: 0.5s;
 }
 
