@@ -9,7 +9,7 @@
 
 .col-md-8 {
     flex: 0 0 85.6666666667%;
-    max-width: 85.6666666667%;
+    max-width: max-content;
 }
 
 h1.login-heading{   
@@ -156,4 +156,18 @@ h1.login-heading{
 .pagelayout-login #page {
     background: transparent;
     background-image: none;
+}
+
+/* Rays fix for mobile view */
+@media only screen 
+and (max-device-width: 1000px)
+{ 
+body {
+    padding-top: inherit;
+	 }
+
+.login-container {
+    margin-right: 30px;
+    min-width: 360px;
+    }
 }
