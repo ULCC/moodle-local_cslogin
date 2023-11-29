@@ -194,3 +194,6 @@ body {
     border-top-right-radius: 25px;
 }
 }
+
+ a#guest-login-button { color: #2e383647; text-decoration: none; }
+  a#guest-login-button:hover { color: #ed542b47; text-decoration: none; transition: 0.7s }
