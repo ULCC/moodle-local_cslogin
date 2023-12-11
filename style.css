@@ -4,8 +4,8 @@
   body { font: 16px "Open Sans",Helvetica,sans-serif; color: #2e3836; background: linear-gradient(
     rgba(0, 0, 0, .3),
     rgba(0, 0, 0, .3)), url(./pix/background.jpg) center; background-size: cover;}
-  a { color: #2e383647; text-decoration: none; }
-  a:hover { color: #ed542b47; text-decoration: none; transition: 0.7s }
+  a { color: #2e3836; text-decoration: none; }
+  a:hover { color: #ed542b; text-decoration: none; transition: 0.7s }
 
 .col-md-8 {
     flex: 0 0 85.6666666667%;
@@ -13,7 +13,7 @@
 }
 
 h1.login-heading{   
-    background-color: #ed542bc7;
+    background-color: #ed542b;
     background-image: url(./pix/logo.svg);
     background-repeat: no-repeat;
     background-position: center 20px;
@@ -38,7 +38,7 @@ h1.login-heading{
 }
 
 .login-panel {
-    background-color: #ffffffc7;
+    background-color: #ffffff;
     padding: 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -182,7 +182,7 @@ body {
 
 @media (max-width: 526px){
 	h1.login-heading{   
-    background-color: #ed542bc7;
+    background-color: #ed542b;
     background-image: url(./pix/logo.svg);
     background-repeat: no-repeat;
     background-position: center 20px;
@@ -195,5 +195,21 @@ body {
 }
 }
 
- a#guest-login-button { color: #2e383647; text-decoration: none; }
-  a#guest-login-button:hover { color: #ed542b47; text-decoration: none; transition: 0.7s }
+ a#guest-login-button { color: #2e3836; text-decoration: none; }
+  a#guest-login-button:hover { color: #ed542b; text-decoration: none; transition: 0.7s }
+  
+  .video-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1; /* Send it behind other content */
+}
+
+#bgVideo {
+  width: 100%; /* Set the video width to cover the whole container */
+  height: 100%; /* Set the video height to cover the whole container */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
