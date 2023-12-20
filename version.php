@@ -26,6 +26,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_cslogin';
 $plugin->release = '2022092000';
-$plugin->version = 2023121101;
+$plugin->version = 2023122001;
 $plugin->requires = 2020061500;
 $plugin->maturity = MATURITY_STABLE;
