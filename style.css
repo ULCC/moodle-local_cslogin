@@ -2,8 +2,8 @@
   body { text-align: center; padding-top: 150px;}
   h1 { font: 29px "Open Sans",Helvetica,sans-serif; text-align: center; padding-top: 10px; margin-top: 5px; font-weight: 700;}
   body { font: 16px "Open Sans",Helvetica,sans-serif; color: #ffffff; background: linear-gradient(
-    rgba(0, 0, 0, .7),
-    rgba(0, 0, 0, .7)), url(./pix/Senate-House_exterior-44.jpeg); background-size: cover;}
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2)), url(./pix/background.jpg); background-size: cover;}
   a { color: #dc8100; text-decoration: none; }
   a:hover { color: #fff; text-decoration: none; }
 
@@ -16,12 +16,15 @@ h1.login-heading{
     background-color: #ffffffc7;
     background-image: url(./pix/logo.png);
     background-repeat: no-repeat;
-    background-position: center 15px;
-    height: 120px;
+	background-size: contain;
+    background-position: center 0px;
+    height: 150px;
+	width: 300px;
     padding: 20px;
-    margin: 0;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+
 }
 
 .sr-only {
@@ -39,8 +42,6 @@ h1.login-heading{
 .login-panel {
     background-color: #002140de;
     padding: 20px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
 .row {
@@ -169,4 +170,31 @@ body {
     margin-right: 30px;
     min-width: 360px;
     }
+}
+
+#help-container{
+	background-color: white;
+    height: 57px;
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+	border: 4px solid grey;
+}
+
+.button {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,155,255,1) 90%);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  cursor: pointer;
+  float: right;
+  border-radius: 25px;
+}
+.button:hover{
+	transition: 0.5s;
+	opacity: 0.8;
 }
