@@ -65,7 +65,7 @@ h1.login-heading{
 }
 
 .login-option .description {
-    min-height: 8rem;
+    min-height: 15.5rem;
 	margin-right: 5px;
 }
 
@@ -197,4 +197,13 @@ body {
 .button:hover{
 	transition: 0.5s;
 	opacity: 0.8;
+}
+
+body.pagelayout-login.loginbackgroundimage1 {
+    overflow: scroll;
+}
+@media (max-width: 768px){
+.login-option .description {
+    min-height: 8rem !important;
+}
 }
